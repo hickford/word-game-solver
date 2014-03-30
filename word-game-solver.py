@@ -1,5 +1,5 @@
 #!python3
-"""Solves combinatorial 'if you can't move you lose' word games."""
+"""Solves combinatorial word games."""
 import string
 from collections import defaultdict
 
@@ -77,12 +77,12 @@ def add_and_rearrange():
     return moves_from, positions
 
 if __name__ == "__main__":
-    print("Building game tree for 'add a letter and rearrange'...")
+    print("Consider the game 'add letter and rearrange'.")
+    print("Building game tree...")
     moves_from, positions = add_and_rearrange()
     print("Solving game...")
     nimbers, strategy = solve(moves_from, positions)
     winner = "first" if nimbers[""] else "second"
-    print("In the 'add a letter and rearrange' game")
     print("The {0} player can always win.".format(winner))
     print("A winning strategy for them is")
     winning_strategy = strategy[""]
