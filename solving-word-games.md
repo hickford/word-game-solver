@@ -21,7 +21,7 @@ At this point, the next player is stuck (can't think of a word), and concedes. T
 
 †I said invented, but others have probably invented the same rules too. Nevertheless, we need a name for this 'add-letter-and-rearrange' game. Herein, I shall call it Alar. (Interestingly, 'alar' is a dictionary word meaning "pertaining to, resembling, or having wings").
 
-Because you need to know the game to follow this blog post, let me quickly demonstrate another game, between two players Bob and Eve. I've highlighted the letter added each move.
+Because you need to know the game well to follow this blog post, let me quickly demonstrate another game, between two players Bob and Eve. I've highlighted the letter added each move.
 
 * Bob: a
 * Eve: a**s**

@@ -30,7 +30,7 @@ def solve(moves_from, positions=None):
 
         if nimbers[word] == 0:
             # player moving has lost. might move anywhere to be difficult
-            children = [[move] + strategy[move] for move in moves_from[word]]
+            children = [strategy[move] for move in moves_from[word]]
             strat = list()
             for child in children:
                 strat.extend(child)
