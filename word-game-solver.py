@@ -31,9 +31,9 @@ def solve(moves_from, positions=None):
         if nimbers[word] == 0:
             # player moving has lost. might move anywhere to be difficult
             children = [strategy[move] for move in moves_from[word]]
-            strat = list()
+            strat = set()
             for child in children:
-                strat.extend(child)
+                strat.update(child)
             strat = sorted(strat, key=lambda x: (len(x), x))
         else:
             # move to a zero
